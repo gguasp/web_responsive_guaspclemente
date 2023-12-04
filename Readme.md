@@ -13,6 +13,8 @@
     GOOGLE DRIVE:Utilizado para compartir la información, en el procesa de creación de la página.
     MARKDOWN: Se usa markdown como formato para la presentación de la documentación de la página.
 3. **Caracteristicas y funcionalidades de la página**
+Es bonita
+
 4. **Capturas de pantalla**
 
 5. **división de tareas**
