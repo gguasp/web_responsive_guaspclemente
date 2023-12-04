@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Actividad B2 3</title>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      } 
+    </script>
+  </head>
+  <body>
+    <!--Vamos a continuación a comentar las etiquetas semanticas utilizadas-->
+    <!--Usamos header para poner la lista de enlaces y el título, la imágen he decidido usarla como logo dentro del h1-->
+    <!--El header veo correcto que se use el mismo en todas las páginas, y eso haremos.-->
+    <header>
+      <h1>Súper Blog <img src="media/imagen.png" width="50px", height="50px"></h1>
+      <!--Nav marca el elemento que nos permitirá viajar por la página web-->
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="inici.html">Home</a>
+          <a href="#news" class="active">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about" id="lastnav">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>  
+    </header>
+    <!--El contenido principal de la web que variará en cada una de las páginas lo marcaremos con main-->
+      <main>
+        <section id="full-body">
+          <h2 class="subtitle">Primera Web</h2>
+          <h2>Guillermo Guasp</h2>
+          <div class="contenedor">
+            <div>Prueba 1</div>
+            <div>Prueba 2</div>
+            <div>Prueba 3</div>
+          </div>  
+          <p>És la tecnologia d'<b>enregistrament, processament, emmagatzematge</b>, transmissió d'imatges i <br><b>reconstrucció</b> per mitjans electrònics digitals o analògics d'una seqüència d'imatges que representen escenes en moviment</p>
+        </section>
+        <aside id="lateral">
+          <article class="sidecard">
+            <img src="media/fp.png" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>Patrocinado</b></h4>
+              <p><a href="https://www.cifpfbmoll.eu/">Francesc de Borja Moll</a>, centro de formación profesional donde puedes cumplir tus metas</p>
+            </div>
+          </article>
+          <article class="sidecard">
+            <img src="media/img_avatar.png" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>Antonio José</b></h4>
+              <p>CEO de la empresa, responsable de la creación de esta página web.</p>
+            </div>
+          </article>
+        </aside>
+      </main>
+    <footer>
+      <hr>
+      Guillermo Guasp<br>
+      629719357<br>
+      Dirección taltal
+    </footer>
+  </body>
+</html>
