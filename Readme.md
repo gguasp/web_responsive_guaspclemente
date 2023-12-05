@@ -1,4 +1,4 @@
-##PAGINA WEB RESPONSIVE##
+##PAGINA WEB RESPONSIVE##  
 #Guillermo Guasp y David Clemente#
 1. **Estructura de carpetas**
 2. **Tecnologias utilizadas**
