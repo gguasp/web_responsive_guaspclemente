@@ -3,13 +3,13 @@ html, body {
  }
 
 html{
-  background-color: #1b1b1b;
+  background-color: lightgray;
 }
 
 header{
   padding: 15px;
   padding-bottom: 3px;
-  background-color: #333;
+  background-color: #101820;
 }
 
 main{
@@ -19,13 +19,24 @@ main{
 }
 
 #full-body{
-  max-width: 55%;
+  width: 60%;
   min-height: 100vh;
-  background-color: white;
+  background-color:#101820;
   border-radius: 5px;
   margin-bottom: 25px;
   margin-left: 15%;
   padding: 2px 16px;
+}
+
+.news_card{
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: white;
+  padding-bottom: 5px;
+}
+
+.news_card h2{
+  padding-top: 10px;
 }
 
 #lateral{
@@ -55,7 +66,6 @@ main{
 
  /* Add a black background color to the top navigation */
  .topnav {
-  background-color: #333;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
@@ -81,13 +91,13 @@ main{
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: #101820;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: red;
-  color: white;
+  background-color: #FEE715;
+  color: #101820;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -101,6 +111,33 @@ main, aside, footer{
 
 #inici_main{
   padding: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+#qualities{
+  padding: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1 1 auto;
+}
+
+.qualitycard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 auto;
+  border-left: solid 1px gray;
+}
+
+#firstqualitycard{
+  border-left: none;
+}
+
+.qualitycard i{
+  padding: 30px;
 }
 
 #myVideo {
@@ -123,12 +160,13 @@ main, aside, footer{
     width: 100%;
     z-index:1;
     text-align: center;
+    color: white;
 }
 
 footer{
   margin-top: auto;
   color: white;
-  background-color: #333;
+  background-color: #101820;
   padding-top: 10px;
 }
 
@@ -136,7 +174,7 @@ h1{
   margin-top: 0;
   margin-left: 10px;
   text-align: center;
-  color: red;
+  color: #FEE715;
 }
 
 .overlay h2{
@@ -158,31 +196,12 @@ h1{
   width: auto;
   padding: 1em;
   border-radius: 5%;
-  background-color: rgb(255, 60, 60);
-}
-
-
-table, th, td {
-  border:1px solid black;
-  border-collapse: collapse;
-}
-
-/*Esta tabla en concreto será de esta manera*/
-#cityTable{
-  width: 100%;
-  background-color: #333;
-  color: white;
-}
-
-/*No queremos los títulos de la tabla centrados*/
-#cityTable th{
-  color: rgb(255, 60, 60);
-  text-align: left;
+  background-color: #FEE715;
 }
 
 /*Todos los links de la página serán de este color para que se mantenga la paleta de colores*/
 a{
-  color: rgb(255, 60, 60);
+  color: #FEE715;
 }
 
 h2 + p{
@@ -197,10 +216,11 @@ h2 + p{
     margin: 0px;
   }
 
-  main{
+  .regular_main{
     flex-direction: column;
     align-items: center;
   }
+  
 
   #lateral{
     margin: 0px;
@@ -227,11 +247,19 @@ h2 + p{
   #lateral{
     width:80%;
   }
+
+  #qualities{
+    flex-direction: column;
+  }
+  .qualitycard{
+    margin-bottom: 50px;
+    border: none;
+  }
 }
 
 @media only screen and (max-width: 650px) {
 
-  main{
+  .regular_main{
     padding: 1px;
   }
 
