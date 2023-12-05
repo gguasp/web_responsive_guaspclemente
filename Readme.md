@@ -1,7 +1,7 @@
 **PAGINA WEB RESPONSIVE**  
 *Guillermo Guasp y David Clemente* 
 1. **Estructura de carpetas**
-2. **Tecnologias utilizadas**
+2. **Tecnologias utilizadas**  
     CANVA:Para el diseño de los mockup.  
     VISUAL STUDIO CODE: Para la realización del código.  
     HTML: Como lenguaje del codigo de la página.  
