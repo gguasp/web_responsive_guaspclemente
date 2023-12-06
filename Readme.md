@@ -14,7 +14,7 @@
     MARKDOWN: Se usa markdown como formato para la presentación de la documentación de la página.  
 3. **Caracteristicas y funcionalidades de la página**
     Se ha realizado un pagina web de una empresa informatica especialista en instalación de hardware y software,   incluyendo la instalación y gestión de redes.
-   En el contexto del trabajo de "Planificació e instalació de xarxas", un trabajo en el que se tiene que simular un proyecto de una empresa informatica, que realiza una instalación general a una empresa de arquitectura.  La funcionalidad de la pagina esta enfocada a la información general de la empresa.
+   En el contexto del trabajo de "Planificació e instalació de xarxas", un trabajo en el que se tiene que simular un proyecto de una empresa informatica, que realiza una instalación general a una empresa de arquitectura.  La funcionalidad de la pagina esta enfocada a la información general de la empresa.  
    Se distribuye en una pagina principal de información, otra pagina de noticias relacionada con la "empresa" y otra pagina que es una galeria de imagenes de la "empresa" y  sus "instalciones".
    
 
