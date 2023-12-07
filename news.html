@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/df275c5597.js" crossorigin="anonymous"></script>
     <title>Actividad B2 3</title>
     <script>
       function myFunction() {
@@ -16,44 +17,41 @@
       } 
     </script>
   </head>
+
   <body>
-    <!--Vamos a continuación a comentar las etiquetas semanticas utilizadas-->
-    <!--Usamos header para poner la lista de enlaces y el título, la imágen he decidido usarla como logo dentro del h1-->
-    <!--El header veo correcto que se use el mismo en todas las páginas, y eso haremos.-->
-    <header>
-      <h1>Súper Blog <img src="media/imagen.png" width="50px", height="50px"></h1>
-      <!--Nav marca el elemento que nos permitirá viajar por la página web-->
+    <header id="newsHeader">
+      <h1>G&D Innovations <img src="media/imagen.png" width="50px", height="50px"></h1>
       <nav>
         <div class="topnav" id="myTopnav">
           <a href="inici.html">Home</a>
           <a href="#news" class="active">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about" id="lastnav">About</a>
+          <a href="#contact" id="lastnav">Contact</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
         </div>
       </nav>  
     </header>
-    <!--El contenido principal de la web que variará en cada una de las páginas lo marcaremos con main-->
       <main class="regular_main">
         <section id="full-body">
           <article class="news_card">
+            <h2>GANADORES DEL PREMIO VR AWARDS 2018</h2>
+            <h5>Dec 7, 2018</h5>
+            <img src="media/news1.jpg">
+            <p>Después de un trabajo <b>inigualable</b> hemos llegado a las finales del concurso de VR, y tras una encarecida batalla por el
+              primer puesto <u><b>nos hemos alzado con la victoria</u></b>. Felicidades a los participantes!
+            </p>
+          </article>
+          <article class="news_card">
             <h2>TITLE HEADING</h2>
             <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
+            <img src="media/news2.jpg">
             <p>Some text..</p>
           </article>
           <article class="news_card">
             <h2>TITLE HEADING</h2>
             <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-          </article>
-          <article class="news_card">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
+            <img src="media/news3.jpg">
             <p>Some text..</p>
           </article>
         </section>
