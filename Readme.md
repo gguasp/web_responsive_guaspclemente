@@ -40,25 +40,25 @@ De hecho la página se adapta a distintos tamaños de ventana, a tablet y a móv
      Vemos una nueva arquitectura de página con un display flex que separa la página en nun main principal y un aside al lado de la página, ambos cuentan con unas tarjetitas con información, al comprimirse actúa de forma responsive, expandiendose y cambiando de lugar, moviendo el lateral a la parte de abajo y quitando los margenes.
 - ### La página de : ###
 ## 5. **Capturas de pantalla**
-Inicio y Header
+### Inicio y Header
 ![img](https://i.imgur.com/jK0dH3Y.png)
 
-Header comprimido responsive
+### Header comprimido responsive
 ![img](https://i.imgur.com/gC971Wi.png)
 
-Qualities pagina de inicio, normal
+### Qualities pagina de inicio, normal
 ![img](https://i.imgur.com/lvNjXFf.png)
 
-Qualities pagina de inicio, responsive
+### Qualities pagina de inicio, responsive
 ![img](https://i.imgur.com/iuUnDJ2.png)
 
-Pagina news normal
+### Pagina news normal
 ![img](https://i.imgur.com/9ijVA3t.png)
 
-Pagina news comprimida, sin lateral ya que está abajo
+### Pagina news comprimida, sin lateral ya que está abajo
 ![img](https://i.imgur.com/XS1sNx2.png)
 
-Tarjetas del lateral al comprimise la página gracias al responsive
+### Tarjetas del lateral al comprimise la página gracias al responsive
 ![img](https://i.imgur.com/0LwTa0f.png)
 
 ## 6. **división de tareas**
