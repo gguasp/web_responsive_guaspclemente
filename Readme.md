@@ -1,6 +1,7 @@
 # **PAGINA WEB RESPONSIVE**  
 # *Guillermo Guasp y David Clemente* 
 ## 1. **Estructura de carpetas**
+   Ordenamos las carpetas de forma en la que todo esté ordenado, por lo que usamos varias carpetas para separar los elementos distintos, dejando en la carpeta madre únicamente los html y el readme.
    Las carpetas las tenemos ordenadas de la siguiente manera:
    - web_responsive_guaspclemente
         - Todos los .html
