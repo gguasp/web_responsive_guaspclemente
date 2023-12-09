@@ -28,9 +28,37 @@
 Se ha realizado un pagina web de una empresa informatica especialista en instalación de hardware y software,   incluyendo la instalación y gestión de redes.
 En el contexto del trabajo de "Planificació e instalació de xarxas", un trabajo en el que se tiene que simular un proyecto de una empresa informatica, que realiza una instalación general a una empresa de arquitectura.  La funcionalidad de la pagina esta enfocada a la información general de la empresa.  
 Se distribuye en una pagina principal de información, otra pagina de noticias relacionada con la "empresa" y otra pagina que es una galeria de imagenes de la "empresa" y  sus "instalciones".
-Es una pagina *responsive* que se ajusta al tamaño de la pantalla que sea necesario, variando la colocación de sus elementos y su distribución en la página.  
-   
+Es una pagina *responsive* que se ajusta al tamaño de la pantalla que sea necesario, variando la colocación de sus elementos y su distribución en la página.
 
+De hecho la página se adapta a distintos tamaños de ventana, a tablet y a móvil.
+
+- ### Elementos comunes: ###
+     Disponemos de un header con un título y una barra de navegación la cual cambia completamente dependiendo del tamaño de la misma. Al comprimirse la página en exceso esta desaparece ocultandose en un botoncito expandible. El footer en cambio es solo un par de líneas tristes con un fondo gris.
+- ### La página de inicio: ###
+     Muestra un vídeo publicitario junto a un texto editable que podemos cambiar mediante el código, al bajar veremos un apartado de cualidades ilustrativas de la empresa junto con iconos de fontawesome.
+- ### La página de news: ###
+     Vemos una nueva arquitectura de página con un display flex que separa la página en nun main principal y un aside al lado de la página, ambos cuentan con unas tarjetitas con información, al comprimirse actúa de forma responsive, expandiendose y cambiando de lugar, moviendo el lateral a la parte de abajo y quitando los margenes.
+- ### La página de : ###
 ## 5. **Capturas de pantalla**
+Inicio y Header
+![img](https://i.imgur.com/jK0dH3Y.png)
+
+Header comprimido responsive
+![img](https://i.imgur.com/gC971Wi.png)
+
+Qualities pagina de inicio, normal
+![img](https://i.imgur.com/lvNjXFf.png)
+
+Qualities pagina de inicio, responsive
+![img](https://i.imgur.com/iuUnDJ2.png)
+
+Pagina news normal
+![img](https://i.imgur.com/9ijVA3t.png)
+
+Pagina news comprimida, sin lateral ya que está abajo
+![img](https://i.imgur.com/XS1sNx2.png)
+
+Tarjetas del lateral al comprimise la página gracias al responsive
+![img](https://i.imgur.com/0LwTa0f.png)
 
 ## 6. **división de tareas**
