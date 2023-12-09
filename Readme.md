@@ -10,7 +10,7 @@
         - media
              - Imágenes y vídeos
          
-   ![Imgur](https://imgur.com/P8ZMpvf)
+   ![Imgur](https://i.imgur.com/P8ZMpvf.png)
 
 ## 2. **Tecnologias utilizadas**  
     CANVA:Para el diseño de los mockup.  
