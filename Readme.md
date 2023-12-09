@@ -90,9 +90,8 @@ De hecho la página se adapta a distintos tamaños de ventana, a tablet y a móv
 ### David Clemente
 - Diseño mockup de la web
 - Organización y escritura del readme
-- Creación de la página de galería y su versión responsive
+- Creación de la página de pricing y su versión responsive
 - Recopilación de imágenes y vídeos
-- Estructura de carpetas
 
 ### Guillermo Guasp
 - Desarrollo del esqueleto de la web (Header, footer y estructura)
