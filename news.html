@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+<!-- Página inicial, con un vídeo y una intro general. -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <!--Stylesheet e iconos de fontawesome -->
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--Añadimos el css y también el fontawesome para poner iconos-->
     <link rel="stylesheet" href="style/style.css">
     <script src="https://kit.fontawesome.com/df275c5597.js" crossorigin="anonymous"></script>
     <title>G&D Innovations</title>
+    <!--Función simple para añadir cambios a la navbar -->
     <script>
       function myFunction() {
         var x = document.getElementById("myTopnav");
@@ -20,14 +22,14 @@
   </head>
 
   <body>
-    <!--Header con navbar -->
-    <header id="newsHeader">
+    <!--Header, que incluirá el título y la barra de navegación responsive -->
+    <header>
       <h1>G&D Innovations <img src="media/imagen.png" width="50px", height="50px"></h1>
       <nav>
         <div class="topnav" id="myTopnav">
           <a href="inici.html">Home</a>
-          <a href="#news" class="active">News</a>
-          <a href="#contact" id="lastnav">Contact</a>
+          <a href="news.html" class="active">News</a>
+          <a href="prices.html" id="lastnav">Pricing</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
@@ -44,18 +46,21 @@
           <p>Después de un trabajo <b>inigualable</b> hemos llegado a las finales del concurso de VR, y tras una encarecida batalla por el
             primer puesto <u><b>nos hemos alzado con la victoria</u></b>. Felicidades a los participantes!
           </p>
+          <p><a href="">Comments</p></a>
         </article>
         <article class="news_card">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2017</h5>
+          <h2>MÁS DE 1000 INSTALACIONES</h2>
+          <h5>Jan 2, 2021</h5>
           <img src="media/news2.jpg">
-          <p>Some text..</p>
+          <p>Estamos felices de anunciar que hemos instalado ya más de 1000 redes a lo largo del mundo, y llevamos manteniendo más de 2000.</p>
+          <p><a href="">Comments</p></a>
         </article>
         <article class="news_card">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2017</h5>
+          <h2>NUEVA TECNOLOGÍA</h2>
+          <h5>July 14, 2023</h5>
           <img src="media/news3.jpg">
-          <p>Some text..</p>
+          <p>Se ha descubierto una nueva tecnología de redes que hará que todas las instalaciones futuras de la empresa sean aún más rápidas.</p>
+          <p><a href="">Comments</p></a>
         </article>
       </section>
       <!--Lateral de la página con tarjetas personalizables-->
