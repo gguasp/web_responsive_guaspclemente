@@ -1,11 +1,14 @@
 <!DOCTYPE html>
+<!-- Página inicial, con un vídeo y una intro general. -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--Añadimos el css y también el fontawesome para poner iconos-->
     <link rel="stylesheet" href="style/style.css">
     <script src="https://kit.fontawesome.com/df275c5597.js" crossorigin="anonymous"></script>
-    <title>Actividad B2 3</title>
+    <title>G&D Innovations</title>
+    <!--Función simple para añadir cambios a la navbar -->
     <script>
       function myFunction() {
         var x = document.getElementById("myTopnav");
@@ -19,6 +22,7 @@
   </head>
 
   <body>
+    <!--Header, que incluirá el título y la barra de navegación responsive -->
     <header>
       <h1>G&D Innovations <img src="media/imagen.png" width="50px", height="50px"></h1>
       <nav>
@@ -32,31 +36,35 @@
         </div>
       </nav>  
     </header>
-      <main id="inici_main">
-        <div class="container">
-          <video autoplay muted loop id="myVideo">
-            <source src="media/video.mp4" type="video/mp4">
-          </video>
-          <div class="overlay">
-            <h2>PUEDES CONFIAR EN NOSOTROS</h2>
-            <h3>La mejor empresa de desarrollo y administración de red y sistemas, estás en buenas manos</h3>
-          </div>
+    <!--El main incluye el resto de la página menos el footer-->
+    <main id="inici_main">
+      <!--Mediante divs, retocamos la página para crear un vídeo con overlay -->
+      <div class="container">
+        <video autoplay muted loop id="myVideo">
+          <source src="media/video.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+          <h2>PUEDES CONFIAR EN NOSOTROS</h2>
+          <h3>La mejor empresa de desarrollo y administración de red y sistemas, estás en buenas manos</h3>
         </div>
-        <section id="qualities">
-          <div class="qualitycard" id="firstqualitycard">
-            <i class="fa-solid fa-user fa-5x"></i>
-            More than 1000 clients
-          </div>
-          <div class="qualitycard">
-            <i class="fa-solid fa-globe fa-5x"></i>
-            Across the whole world
-          </div>
-          <div class="qualitycard">
-            <i class="fa-solid fa-pen-nib fa-5x"></i>
-            With a fully professional team
-          </div>
-        </section>
-      </main>
+      </div>
+      <!--Sección bajo el vídeo con 3 iconos (Responsive) -->
+      <section id="qualities">
+        <div class="qualitycard" id="firstqualitycard">
+          <i class="fa-solid fa-user fa-5x"></i>
+          More than 1000 clients
+        </div>
+        <div class="qualitycard">
+          <i class="fa-solid fa-globe fa-5x"></i>
+          Across the whole world
+        </div>
+        <div class="qualitycard">
+          <i class="fa-solid fa-pen-nib fa-5x"></i>
+          With a fully professional team
+        </div>
+      </section>
+    </main>
+    <!--Footer genérico -->
     <footer>
       <hr>
       Guillermo Guasp<br>
