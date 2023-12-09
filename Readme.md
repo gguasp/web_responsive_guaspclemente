@@ -71,6 +71,15 @@ De hecho la página se adapta a distintos tamaños de ventana, a tablet y a móv
 #### Tarjetas del lateral al comprimise la página gracias al responsive
 ![img](https://i.imgur.com/0LwTa0f.png)
 
+#### Retoques de diseño de última hora (Cambio de fondo y de colores)
+![img](https://i.imgur.com/hDLkP1J.png)
+
+#### Página de pricing
+![img](https://i.imgur.com/U1aYQBa.png)
+
+#### Página de pricing responsive
+![img](https://i.imgur.com/oPMqDaD.png)
+
 ## 6. **división de tareas**
 
 ### Tareas Comunes
@@ -88,5 +97,6 @@ De hecho la página se adapta a distintos tamaños de ventana, a tablet y a móv
 ### Guillermo Guasp
 - Desarrollo del esqueleto de la web (Header, footer y estructura)
 - Creación de página Inicio, News, y sus versiones responsive
+- Diseño general de la página
 - Administración del repositorio Git
 - Cohesión y refinado de última hora.
