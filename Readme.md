@@ -79,7 +79,14 @@ De hecho la página se adapta a distintos tamaños de ventana, a tablet y a móv
 - Establecimiento del entorno de trabajo
 
 ### David Clemente
-- Diseño mockup inicial de la web
-- 
+- Diseño mockup de la web
+- Organización y escritura del readme
+- Creación de la página de galería y su versión responsive
+- Recopilación de imágenes y vídeos
+- Estructura de carpetas
 
 ### Guillermo Guasp
+- Desarrollo del esqueleto de la web (Header, footer y estructura)
+- Creación de página Inicio, News, y sus versiones responsive
+- Administración del repositorio Git
+- Cohesión y refinado de última hora.
