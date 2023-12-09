@@ -40,6 +40,16 @@ De hecho la página se adapta a distintos tamaños de ventana, a tablet y a móv
      Vemos una nueva arquitectura de página con un display flex que separa la página en nun main principal y un aside al lado de la página, ambos cuentan con unas tarjetitas con información, al comprimirse actúa de forma responsive, expandiendose y cambiando de lugar, moviendo el lateral a la parte de abajo y quitando los margenes.
 - ### La página de : ###
 ## 5. **Capturas de pantalla**
+
+### Mockup versión 1
+![img](https://i.imgur.com/OVH2Esh.png)
+
+### Mockup versión 2
+![img](https://i.imgur.com/8aquK0O.png)
+
+### Mockup versión 3, responsive
+![img](https://i.imgur.com/UbQMN13.png)
+
 ### Inicio y Header
 ![img](https://i.imgur.com/jK0dH3Y.png)
 
@@ -62,3 +72,14 @@ De hecho la página se adapta a distintos tamaños de ventana, a tablet y a móv
 ![img](https://i.imgur.com/0LwTa0f.png)
 
 ## 6. **división de tareas**
+
+### Tareas Comunes
+- Lluvia de ideas
+- Configuración inicial del Git
+- Establecimiento del entorno de trabajo
+
+### David Clemente
+- Diseño mockup inicial de la web
+- 
+
+### Guillermo Guasp
