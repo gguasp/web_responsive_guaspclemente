@@ -38,7 +38,8 @@ De hecho la página se adapta a distintos tamaños de ventana, a tablet y a móv
      Muestra un vídeo publicitario junto a un texto editable que podemos cambiar mediante el código, al bajar veremos un apartado de cualidades ilustrativas de la empresa junto con iconos de fontawesome.
 - ### La página de news: ###
      Vemos una nueva arquitectura de página con un display flex que separa la página en nun main principal y un aside al lado de la página, ambos cuentan con unas tarjetitas con información, al comprimirse actúa de forma responsive, expandiendose y cambiando de lugar, moviendo el lateral a la parte de abajo y quitando los margenes.
-- ### La página de : ###
+- ### La página de pricing: ###
+     Dispone de 3 tarjetas de precios con sus ofertas, editables y añadibles para lo que se necesite. Al hacerse pequeña la página empiezan a ocupar toda la página
 ## 5. **Capturas de pantalla**
 
 ### Mockup versión 1
