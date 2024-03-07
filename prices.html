@@ -8,17 +8,7 @@
     <link rel="stylesheet" href="style/style.css">
     <script src="https://kit.fontawesome.com/df275c5597.js" crossorigin="anonymous"></script>
     <title>G&D Innovations</title>
-    <!--Función simple para añadir cambios a la navbar -->
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      } 
-    </script>
+    <script src="script.js"></script> 
   </head>
 
   <body>
@@ -44,7 +34,7 @@
         <p class="description">Te instalamos toda la red por solo 1030$, no incluye el mantenimiento pero puedes contar con todos los servicios 
           que desees a la hora de instalar tu red</p>
         <b class="offer">Act fast! Offer ends on September 20, 2023.</b>
-        <a class="subscribe-button" href="#">Suscribirse</a>
+        <a class="subscribe-button" onclick="suscriptionConfirm()" href="#">Suscribirse</a>
       </div>
       <div class="price-container">
         <h2 class="title">Mantenimiento<br> Garantizado</h2>
@@ -53,7 +43,7 @@
           y una decena de profesionales asignados a su empresa.
         </p>
         <b class="offer">Act fast! Offer ends on September 20, 2023.</b>
-        <a class="subscribe-button" href="#">Suscribirse</a>
+        <a class="subscribe-button" onclick="suscriptionConfirm()" href="#">Suscribirse</a>
       </div>
       <div class="price-container">
         <h2 class="title">Pack <br> Completo</h2>
@@ -62,7 +52,7 @@
           primeros 3 años de servicio.
         </p>
         <b class="offer">Actúe rápido! Pronto terminará esta oferta</b>
-        <a class="subscribe-button" href="#">Suscribirse</a>
+        <a class="subscribe-button" onclick="suscriptionConfirm()" href="#">Suscribirse</a>
         <div class="ribbon-wrap">
           <div class="ribbon">Oferta especial</div>
         </div>
