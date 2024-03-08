@@ -36,7 +36,11 @@
           <p>Después de un trabajo <b>inigualable</b> hemos llegado a las finales del concurso de VR, y tras una encarecida batalla por el
             primer puesto <u><b>nos hemos alzado con la victoria</u></b>. Felicidades a los participantes!
           </p>
-          <p><a href="">Comments</p></a>
+          <p><button onclick="commentToggle()">Comments</p></button>
+          <div id="commentAdder" class="hidden">
+            <input id="commentInput" type="text">
+            <button onclick="addComment()">Comentar</button>
+          </div>
         </article>
         <article class="news_card">
           <h2>MÁS DE 1000 INSTALACIONES</h2>

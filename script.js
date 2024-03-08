@@ -43,3 +43,25 @@ function cerrarModal() {
     var modal = document.getElementById("modalImagen");
     modal.style.display = "none";
 }
+
+function darkMode(){
+    var element1 = document.getElementById("myTopnav");
+    var element2 = document.getElementById("header");
+    var element3 = document.getElementById("footer");
+    element1.classList.toggle('whiteMode');
+    element2.classList.toggle('whiteMode');
+    element3.classList.toggle('whiteMode');
+}
+
+function commentToggle(){
+    var element1 = document.getElementById('commentAdder');
+    element1.classList.toggle('hidden');
+}
+
+function addComment(){
+    var element1 = document.getElementById('commentAdder');
+    var comment = document.getElementById('commentInput').value;
+    var newElement = document.createElement('p');
+    newElement.textContent = "Comentario nuevo: "+ comment;
+    element1.appendChild(newElement);
+}

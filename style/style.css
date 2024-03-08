@@ -386,6 +386,11 @@ h2 + p{
   top: 29%;
 }
 
+.whiteMode{
+  background-color: lightblue;
+  color: black;
+}
+
 /*Primera media query a 1244px */
 @media only screen and (max-width: 1244px) {
 
