@@ -1,4 +1,4 @@
-![image](https://github.com/gguasp/web_responsive_guaspclemente/assets/72400142/9e60ed8d-a072-4a1c-b8d9-b1da1c975ff1)# **PAGINA WEB RESPONSIVE**  
+# **PAGINA WEB RESPONSIVE**  
 # *Guillermo Guasp y David Clemente* 
 # Parte 1 #
 ## 1. **Estructura de carpetas**
@@ -133,6 +133,7 @@ Img4
 Se ha creado una página de registro accedible desde el botón en la parte superior derecha de la pantalla. Esta página de registro incluye tres campos básicos.
 
 ![image](https://github.com/gguasp/web_responsive_guaspclemente/assets/72400142/424fb4e7-6a8d-467f-8bbd-11b3940c0abf)
+![image](https://github.com/gguasp/web_responsive_guaspclemente/assets/72400142/9e60ed8d-a072-4a1c-b8d9-b1da1c975ff1)
 
 Estos campos tienen distintos requisitos por html pero el más importante se valida mediante el onsubmit.
 
