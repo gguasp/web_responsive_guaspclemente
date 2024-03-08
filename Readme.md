@@ -1,5 +1,6 @@
-# **PAGINA WEB RESPONSIVE**  
+![image](https://github.com/gguasp/web_responsive_guaspclemente/assets/72400142/9e60ed8d-a072-4a1c-b8d9-b1da1c975ff1)# **PAGINA WEB RESPONSIVE**  
 # *Guillermo Guasp y David Clemente* 
+# Parte 1 #
 ## 1. **Estructura de carpetas**
    Ordenamos las carpetas de forma en la que todo esté ordenado, por lo que usamos varias carpetas para separar los elementos distintos, dejando en la carpeta madre únicamente los html y el readme.
    Las carpetas las tenemos ordenadas de la siguiente manera:
@@ -100,3 +101,61 @@ De hecho la página se adapta a distintos tamaños de ventana, a tablet y a móv
 - Diseño general de la página
 - Administración del repositorio Git
 - Cohesión y refinado de última hora.
+
+# Parte 2, JAVASCRIPT #
+
+Nuestra función en este trabajo va a ser crear una página con diversas cualidades de javascript.
+
+## 1. Distribución de carpetas ##
+
+Para la práctica todos los archivos html contendrán en el head un link al archivo .js que guardará todos los scripts.
+
+Img1
+
+Img2
+
+### Interactividad en la página ###
+
+Se han creado distintos scripts para cumplir varias expectativas en el programa. Iremos detallandolos uno a uno.
+
+## 2. Colapso de la navbar ##
+
+Para que la barra de navegación se muestre de la forma deseada en resoluciones mas bajas nos queremos encargar de que pueda compactarse en algo más pequeño, es por eso que tenemos el siguiente script.
+
+Img3
+
+Esto nos permitirá añadir a la navbar una clase que se compactará en un desplegable como podemos ver en el siguiente ejemplo.
+
+Img4
+
+## 3. Página de Registro ##
+
+Se ha creado una página de registro accedible desde el botón en la parte superior derecha de la pantalla. Esta página de registro incluye tres campos básicos.
+
+![image](https://github.com/gguasp/web_responsive_guaspclemente/assets/72400142/424fb4e7-6a8d-467f-8bbd-11b3940c0abf)
+
+Estos campos tienen distintos requisitos por html pero el más importante se valida mediante el onsubmit.
+
+![image](https://github.com/gguasp/web_responsive_guaspclemente/assets/72400142/2b06840b-93c1-463b-9baf-bf51bd82052f)
+
+Podemos ver que este llama a una función, la cual es la siguiente; que nos ayuda a comprobar la legitimidad del email.
+
+![image](https://github.com/gguasp/web_responsive_guaspclemente/assets/72400142/33a9c8d0-6a49-4fd3-b665-38662e618bdb)
+
+Y este nos avisará mediante un alert si es funcional o no, debe cumplir con la expresión regular.
+
+## 4. Elementos añadidos ##
+
+Se ha creado en varias instancias distintos elementos que están por defecto ocultos y luego se muestran, como se puede ver en este ejemplo:
+Tenemos un botón de "Ver más", el cual nos permite clickarlo (incluso cambiandose el puntero por una mano para que quede claro)
+
+![image](https://github.com/gguasp/web_responsive_guaspclemente/assets/72400142/73126135-3e78-4776-bd05-f2ea42bc675f)
+
+Al pulsarla se activará el siguiente script, el cual añade la clase hidden a un elemento. Esta clase tiene un display: none:
+
+![image](https://github.com/gguasp/web_responsive_guaspclemente/assets/72400142/cbfb4b92-bdd0-4670-bafd-2277ff75caf7)
+
+Y al hacerle click se hace "toggle" (Si no lo tiene se pone, si lo tiene se quita).
+
+![image](https://github.com/gguasp/web_responsive_guaspclemente/assets/72400142/9cff34c8-3f16-4b15-b2a4-d3a199278105)
+
